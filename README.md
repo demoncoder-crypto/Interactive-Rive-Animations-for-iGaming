@@ -9,6 +9,7 @@ This project demonstrates how to use Rive animations to create interactive iGami
 - Smooth animations and transitions
 - Responsive design that works on all devices
 - Canvas-based fallback animations if Rive isn't available
+![Screenshot 2025-03-01 221750](https://github.com/user-attachments/assets/6dccd560-0ed2-4e5e-a1ce-05743f22b5fc)
 
 ## How to Run
 
