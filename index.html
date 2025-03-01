@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rive Animations for iGaming</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Rive Runtime -->
+    <script src="https://unpkg.com/@rive-app/canvas@2.7.0"></script>
+</head>
+<body>
+    <header>
+        <h1>Interactive Casino Experience</h1>
+    </header>
+
+    <main>
+        <section class="game-container">
+            <div class="game-selection">
+                <h2>Select a Game</h2>
+                <div class="game-buttons">
+                    <button id="slot-button" class="game-btn">Slot Machine</button>
+                    <button id="roulette-button" class="game-btn">Roulette</button>
+                    <button id="card-button" class="game-btn">Card Game</button>
+                </div>
+            </div>
+
+            <div class="animation-container">
+                <!-- Rive canvas will be inserted here -->
+                <div id="rive-canvas"></div>
+                <div class="controls">
+                    <button id="spin-button" class="action-btn">Spin</button>
+                    <button id="deal-button" class="action-btn">Deal</button>
+                    <button id="reset-button" class="action-btn">Reset</button>
+                </div>
+            </div>
+
+            <div class="game-stats">
+                <div class="balance">
+                    <h3>Balance</h3>
+                    <p id="balance-amount">1000</p>
+                </div>
+                <div class="bet">
+                    <h3>Bet Amount</h3>
+                    <input type="number" id="bet-amount" min="1" max="100" value="10">
+                </div>
+                <div class="win">
+                    <h3>Last Win</h3>
+                    <p id="win-amount">0</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Interactive Rive Animations for iGaming Demo</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html> 
